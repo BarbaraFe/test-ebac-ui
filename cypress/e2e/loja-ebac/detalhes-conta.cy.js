@@ -7,12 +7,12 @@ describe('Funcionalidade: Detalhes da conta', () => {
         cy.fixture('perfil').then(login => {
             cy.login(login.usuario, login.senha)
         })
-        
+
     });
-    
+
     it('Deve completar detalhes da conta com sucesso', () => {
-        cy.detalhesConta('Bárbara','Ferreira','barbara.ferreira')
+        cy.detalhesConta('Bárbara', 'Ferreira', 'barbara.ferreira')
         cy.get('.woocommerce-message')
-         .should('contain','Detalhes da conta modificados com sucesso.')
+            .should('contain', 'Detalhes da conta modificados com sucesso.')
     });
 });

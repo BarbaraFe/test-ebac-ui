@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "32",
+        "cor": "Blue",
+        "quantidade": 7
+    },
+    {
+        "nomeProduto": "Ajax Full-Zip Sweatshirt",
+        "tamanho": "XS",
+        "cor": "Blue",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto": "Ariel Roll Sleeve Sweatshirt",
+        "tamanho": "M",
+        "cor": "Green",
+        "quantidade": 1
+    }
+]
