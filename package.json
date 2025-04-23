@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run --browser chrome",
-    "cy:dash": "npx cypress run --record --key 8010cbc0-9060-41b7-a5b7-b4e67ae0c642"
+    "cy:dash": "npx cypress run --record --key 8010cbc0-9060-41b7-a5b7-b4e67ae0c642",
+    "clean": "rm -rf cypress/screenshots cypress/videos"
   },
   "repository": {
     "type": "git",
